@@ -74,9 +74,10 @@ main{
 }
 
 .input-box input:hover{
-    background-color: black
+    background-color: black;
+    color: aliceblue
 }
 
-.btn {
-    
+.error{
+    color: red;
 }

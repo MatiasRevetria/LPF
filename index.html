@@ -15,17 +15,19 @@
 
         <main>
             <div class="contenedor">
-                <form action="#" method="get">
+                <form action="#" id="form">
 
                     <h1>LOGIN</h1>
 
-                    <div class="input-box"><input type="email" placeholder = "Email"></div>
+                    <div class="input-box"><input type="text" placeholder = "USUARIO" id="user"></div>
 
-                    <div class="input-box"><input type="password" placeholder="Password"></div>
+                    <div class="input-box"><input type="password" placeholder="CONTRASEÑA" id="pass"></div>
 
                     <div class="btn"><input type="submit" value="Login"></div>
-
+                    
                     <div class="Registrarse"><a href="#">Registrarse</a></div>
+
+                    <div class="error" id="err"></div>
 
                 </form>
 
@@ -33,7 +35,6 @@
         </main>
 
     <footer></footer>
-
-    <script src="./JS/"></script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>
